@@ -1,0 +1,160 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.6rem;
+    background-image: url(img/paisagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#content{
+    display: flex;
+    height: 30.5rem;
+}
+
+
+#content #content-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    height: 48.5rem;
+}
+
+#content #content-double {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.container{
+    height: 480px;
+    width: 480px;
+    border: 1px solid white;
+    backdrop-filter: blur(0.3rem);
+    border-radius: 1rem;
+    margin-right: 1.4rem;
+}
+
+
+.qualityAir{
+    width: 277px;
+    height: 244px;
+    border: 1px solid white;
+    backdrop-filter: blur(0.3rem);
+    border-radius: 1rem;
+}
+
+
+.TimeSun{
+    width: 277px;
+    height: 244px;
+    border: 1px solid white;
+    backdrop-filter: blur(0.3rem);
+    border-radius: 1rem;
+}
+
+.WekPrediction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    width: 578px;
+    height: 210px;
+    padding: 4rem;
+    border: 1px solid white;
+    backdrop-filter: blur(0.3rem);
+    border-radius: 1rem;
+}
+
+.container .search-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.search-box{
+    height: 55px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-box input{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 0 48px 0 42px;
+}
+
+.search-box input::placeholder{
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Lato';
+    color: white;
+}
+
+
+
+
+.container .wind{
+    display: flex;
+    align-items: center;
+    width: 146.67px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.353);
+}
+
+
+
+ .humidity{
+    width: 146.67px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.353);
+}
+
+.rain{
+    width: 146.67px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.353);
+}
+
+.statistic{
+    display: flex;
+    gap: 10px;
+    width: 729.6px;
+    height: 96px;
+    margin-top: 270px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
